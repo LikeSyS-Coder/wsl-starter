@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <Nullable>disable</Nullable>
+    <RootNamespace>WslStarter</RootNamespace>
+    <AssemblyName>WSL-Starter</AssemblyName>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <ApplicationHighDpiMode>PerMonitorV2</ApplicationHighDpiMode>
+    <SatelliteResourceLanguages>de</SatelliteResourceLanguages>
+
+    <Product>WSL-Starter</Product>
+    <Description>WSL-Distributionen als unabhängige Instanzen installieren, klonen und verwalten</Description>
+    <Company>LikeSys Deutschland GmbH</Company>
+    <Authors>LikeSys Deutschland GmbH</Authors>
+    <Copyright>© 2026 LikeSys Deutschland GmbH</Copyright>
+    <Version>1.1.0</Version>
+  </PropertyGroup>
+
+</Project>
